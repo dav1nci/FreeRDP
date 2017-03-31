@@ -29,8 +29,8 @@ ext {
     println 'COMPILE_SDK:        ' + compileSdk
     println 'BUILD_TOOLS:        ' + buildToolsVersion
     println 'VERSION_NAME:       ' + versionName
-    println 'RELEASE_STORE_FILE: '+ RELEASE_STORE_FILE
-    println 'RELEASE_KEY_ALIAS:  '+ RELEASE_KEY_ALIAS
+    /*println 'RELEASE_STORE_FILE: '+ RELEASE_STORE_FILE
+    println 'RELEASE_KEY_ALIAS:  '+ RELEASE_KEY_ALIAS*/
     println '-----------------------------------------------------------'
 }
 

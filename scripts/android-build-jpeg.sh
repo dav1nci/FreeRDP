@@ -1,5 +1,5 @@
 #!/bin/bash
-SCM_URL=https://github.com/akallabeth/jpeg8d.git
+SCM_URL=https://github.com/dav1nci/jpeg8d.git
 SCM_TAG=master
 
 source $(dirname "${BASH_SOURCE[0]}")/android-build-common.sh

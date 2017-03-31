@@ -13,7 +13,7 @@ android {
         versionName = rootProject.ext.versionName
     }
 
-    signingConfigs {
+    /*signingConfigs {
         release {
             storeFile file(RELEASE_STORE_FILE)
             storePassword RELEASE_STORE_PASSWORD
@@ -21,14 +21,14 @@ android {
             keyPassword RELEASE_KEY_PASSWORD
             storeType "jks"
         }
-    }
+    }*/
 
     buildTypes {
-        release {
+        /*release {
             minifyEnabled false
             signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
-        }
+        }*/
         debug {
             jniDebuggable true
             renderscriptDebuggable true
